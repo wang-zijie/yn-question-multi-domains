@@ -1,6 +1,8 @@
 # Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains
 
-The repository for NAACL 2024 finding paper [Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains](https://arxiv.org/abs/2404.16262)
+The repository for NAACL 2024 finding paper [Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains](https://arxiv.org/abs/2404.16262).
+In this work, we developed so far the largest yes-no question dataset from eight dialogue domains in English. 
+We propose an approach grounded by distant supervision to interpret indirect answers to yes-no questions. Experimental results demonstrate that our method can be used to adapt to new domains without requiring substantial human involvement in annotation.
 
 
 # Dataset 
@@ -77,18 +79,18 @@ We collect yes-no questions from three dialogue domains (by a trained classifier
 # Citation
 
 ```
-
-
 @inproceedings{Wang2024Interpreting,
   title={Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains},
   author={Zijie Wang and Farzana Rashid and Eduardo Blanco},
   year={2024},
   url={https://arxiv.org/abs/2404.16262}
 }
-
 ```
 
-This work is a follow-up of our previous work on interpreting answers in mutliple languages.
+This work is a follow-up of our previous work on interpreting answers in mutliple languages. The work is published at EMNLP 2023 Findings.
+You can find the multilingual yes-no question dataset in [Github Repo](https://github.com/wang-zijie/yn-question-multilingual).
+
+Citation:
 
 ```
 @inproceedings{wang-etal-2023-interpreting,
