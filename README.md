@@ -14,7 +14,7 @@ The datasets are available on Google Drive. You can download the data with the [
 dataset    
 │
 └───indentifying_yes_no_question 
-│   │   (yes-no questions indetified by rules or a trained classifier)
+│   │   (yes-no questions identified by rules or a trained classifier)
 |
 └───interpreting_indirect_answer
     │
