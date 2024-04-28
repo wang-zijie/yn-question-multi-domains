@@ -2,7 +2,7 @@
 
 The repository for NAACL 2024 finding paper [Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains](https://arxiv.org/abs/2404.16262).
 In this work, we developed so far the largest yes-no question dataset from eight dialogue domains in English. 
-We propose an approach grounded by distant supervision to interpret indirect answers to yes-no questions. Experimental results demonstrate that our method can be used to adapt to new domains without requiring substantial human involvement in annotation.
+We propose an approach grounded by distant supervision to interpret indirect answers to yes-no questions. Experimental results demonstrate that our method works on new domains without requiring substantial human involvement in annotation.
 
 
 # Dataset 
@@ -13,7 +13,7 @@ The datasets are available on Google Drive. You can download the data with the [
 ```
 dataset    
 │
-└───indentifying_yes_no_question 
+└───identifying_yes_no_question 
 │   │   (yes-no questions identified by rules or a trained classifier)
 |
 └───interpreting_indirect_answer
@@ -32,7 +32,7 @@ dataset
 
 ## Dataset to identify yes-no questions
 
-The yes-no questions are collected (by rules and a trained classifier) from five dialogue domains: SWDA, MRDA, DailyDialog, Friends, and MWOZ. 
+The yes-no questions are collected (by rules and a trained classifier) from five dialogue datasets: SWDA, MRDA, DailyDialog, Friends, and MWOZ. 
 
 
 
@@ -43,7 +43,7 @@ The yes-no questions are collected (by rules and a trained classifier) from five
 
 #### Dataset Fields
 
-* ```Question:``` The yes-no question identified from dialogues.
+* ```Question:``` The yes-no question that is identified from dialogue.
 * ```Answer:``` The answer to the yes-no question (the turn immediately after the question turn).
 
 
